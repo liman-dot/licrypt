@@ -1,5 +1,4 @@
 # licrypt
-
 Licrypt is a python script to encrypt and decrypt a file using salt byte flipping method.
 # Usage
 ## Encryption
@@ -15,5 +14,9 @@ licrypt.py --salt SALT decrypt output.enc output.dec
 - Next is mode. There is 2 lode encrypt and decrypt. (Required)
 - Next is input file path for deceyption or encryption. (Required)
 - Lastly output file path where it will save the encrypted or decrypted data. (Required)
+# Changelog
+Current: 0.0.1
+## Log
+- Made basics full code.
 # Contribution
 We'll be happy if you contribute with us. Read CONTRIBUTE.md for more information.
