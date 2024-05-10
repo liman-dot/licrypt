@@ -35,7 +35,7 @@ def decrypt_file(input_file, output_file, salt):
         print(f"{input_file} not found!")
 
 def main():
-    parser = argparse.ArgumentParser(prog="licrypt", description='Encrypt or decrypt a file using salted flipping method. This is not a safe way to encrypt a file. By Github: LimanGit')
+    parser = argparse.ArgumentParser(prog="licrypt", description='V0.0.1 Encrypt or decrypt a file using salted flipping method. This is not a safe way to encrypt a file. By Github: LimanGit')
     parser.add_argument('mode', choices=['encrypt', 'decrypt'], help='Mode: encrypt or decrypt')
     parser.add_argument('input_file', help='Input file path')
     parser.add_argument('output_file', help='Output file path')
